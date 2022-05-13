@@ -28,7 +28,7 @@
       <form action="/search/" class="search__form">
         <input type="search" name="s" class="search__input">
       </form>
-      <p class="search__results">Найдено постов: {{ post|length }}</p>
+      <p class="search__results">Найдено постов: {{ posts|length }}</p>
     </div>
     <section class="items">
       {% for post in posts %}
