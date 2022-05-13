@@ -46,4 +46,4 @@ def post_page_test(uid):
 
 
 if __name__ == "__main__":
-    app.run(port=8000)
+    app.run(port=7050)
