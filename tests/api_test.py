@@ -21,3 +21,5 @@ def test_api_posts_by_id(posts_keys):
     post = response.json
     assert isinstance(post, dict), "Есть ошибка получения поста по ID: выгружается не словарь"
     assert set(post.keys()) == posts_keys, "Ошибка получения ключей при загрузке ID"
+
+

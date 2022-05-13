@@ -25,6 +25,7 @@ def search_page():
         posts = search_for_posts(search_by)[0:10]
         if posts:
             return render_template('search.html', search_by=search_by, posts=posts)
+    return 'ВЫ НЕ ВВЕЛИ НИЧЕГО'
 
 
 @app.route("/users/<username>/")
@@ -46,4 +47,4 @@ def post_page_test(uid):
 
 
 if __name__ == "__main__":
-    app.run(port=7030)
+    app.run(port=9000)
