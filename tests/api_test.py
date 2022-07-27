@@ -2,7 +2,6 @@
 from app import app
 
 
-
 def tests_api_posts(posts_keys):
     """Проверяем что
     - возвращается список
