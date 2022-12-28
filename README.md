@@ -1,10 +1,10 @@
-Привет! Я - тестовое приложение, разработанное в виде задания к курсовой работе на втором курсе!
+## Hello i am a test app similar to instagram. Created in order to understand the principle of selecting posts and comments
 
-Техническое задание
 
-- Лента: есть список всех постов, у каждого выводится автор, укороченный до 50 символов текст, количество просмотров , ссылка, которая ведет на пост. 
-В шапке - ссылка-флажок на закладки.
-- Пост: Страничка с подробной информацией про пост. Фото, текст поста и карточка автора берутся из данных поста. Комментарии берутся из файла с комментариями. Ссылка "назад" ведет на главную
-- Поиск: Форма поиска, отправляется по нажатию на Enter. После нее – результаты поиска.
+Technical task:
+- Feed: there is a list of all posts, each displays the author, text shortened to 50 characters, number of views, a link that leads to the post.
+In the header - a link-flag to the bookmarks.
+- Post: A page with detailed information about the post. The photo, post text and author card are taken from the post data. Comments are taken from a file with comments. Back link leads to home page
+- Search: Search form, submitted by pressing Enter, displaying search results. 
 
-- Посты вместе с информацией об авторе и его аватаркой хранятся в файле posts.json, комментарии - в comments.json. Также создан файл bookmarks.json, где можно будет хранить закладки.
+- Posts along with information about the author and his avatar are stored in the posts.json file, comments - in comments.json. A bookmarks.json file has also been created where bookmarks can be stored.
